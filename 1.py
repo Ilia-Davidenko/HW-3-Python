@@ -8,9 +8,8 @@
 lst = [2,5,7,3,8,4,5,4]
 
 def sum_negative_index(lst):
-    lenght_lst = len(lst)
     sum = 0
-    for i in range(lenght_lst):
+    for i in range(len(lst)):
         if i % 2 == 0:
             False
         else:
